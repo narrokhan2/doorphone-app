@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/doorphone-app/static/css/main.98c5be4c.css",
+    "main.js": "/doorphone-app/static/js/main.0b1a5797.js",
+    "static/js/453.ed3810f9.chunk.js": "/doorphone-app/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/doorphone-app/index.html",
+    "main.98c5be4c.css.map": "/doorphone-app/static/css/main.98c5be4c.css.map",
+    "main.0b1a5797.js.map": "/doorphone-app/static/js/main.0b1a5797.js.map",
+    "453.ed3810f9.chunk.js.map": "/doorphone-app/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98c5be4c.css",
+    "static/js/main.0b1a5797.js"
+  ]
+}
