@@ -17,9 +17,8 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundColor: "#f5f5f5", minHeight: "100vh", paddingBottom: "20px" }}>
-      {/* 使用 Bootstrap 的 Navbar 顯示標題 */}
+      {/* 移除左上角的標題部分 */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-        <span className="navbar-brand">{pageTitles[page]}</span>
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item" onClick={() => setPage("audioVideo")}>
