@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/doorphone-app/static/css/main.98c5be4c.css",
-    "main.js": "/doorphone-app/static/js/main.0b1a5797.js",
-    "static/js/453.ed3810f9.chunk.js": "/doorphone-app/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/doorphone-app/index.html",
-    "main.98c5be4c.css.map": "/doorphone-app/static/css/main.98c5be4c.css.map",
-    "main.0b1a5797.js.map": "/doorphone-app/static/js/main.0b1a5797.js.map",
-    "453.ed3810f9.chunk.js.map": "/doorphone-app/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.98c5be4c.css",
+    "main.js": "/static/js/main.c24f9dc3.js",
+    "static/js/453.a7558452.chunk.js": "/static/js/453.a7558452.chunk.js",
+    "index.html": "/index.html",
+    "main.98c5be4c.css.map": "/static/css/main.98c5be4c.css.map",
+    "main.c24f9dc3.js.map": "/static/js/main.c24f9dc3.js.map",
+    "453.a7558452.chunk.js.map": "/static/js/453.a7558452.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98c5be4c.css",
-    "static/js/main.0b1a5797.js"
+    "static/js/main.c24f9dc3.js"
   ]
 }
