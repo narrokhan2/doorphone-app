@@ -1,46 +1,49 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";  // 如果需要自定義CSS，可以在這裡引入
+import "./App.css";
 
 function App() {
   const [page, setPage] = useState("audioVideo");
 
-  const pageTitles = {
-    audioVideo: "一對一語音及影音對講",
-    broadcast: "一對多語音廣播",
-    camera: "IP Camera 影像與截圖",
-    lcd: "LCD 顯示控制",
-    ioControl: "數位 I/O 控制",
-    music: "音源傳輸播放",
-    lineNotify: "LINE Notify 通知",
-  };
-
   return (
     <div className="App" style={{ backgroundColor: "#f5f5f5", minHeight: "100vh", paddingBottom: "20px" }}>
-      {/* 移除左上角的標題部分 */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item" onClick={() => setPage("audioVideo")}>
-              <a className="nav-link" href="#">一對一語音及影音對講</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("audioVideo")}>
+                一對一語音及影音對講
+              </button>
             </li>
-            <li className="nav-item" onClick={() => setPage("broadcast")}>
-              <a className="nav-link" href="#">一對多語音廣播</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("broadcast")}>
+                一對多語音廣播
+              </button>
             </li>
-            <li className="nav-item" onClick={() => setPage("camera")}>
-              <a className="nav-link" href="#">IP Camera 影像與截圖</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("camera")}>
+                IP Camera 影像與截圖
+              </button>
             </li>
-            <li className="nav-item" onClick={() => setPage("lcd")}>
-              <a className="nav-link" href="#">LCD 顯示控制</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("lcd")}>
+                LCD 顯示控制
+              </button>
             </li>
-            <li className="nav-item" onClick={() => setPage("ioControl")}>
-              <a className="nav-link" href="#">數位 I/O 控制</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("ioControl")}>
+                數位 I/O 控制
+              </button>
             </li>
-            <li className="nav-item" onClick={() => setPage("music")}>
-              <a className="nav-link" href="#">音源傳輸播放</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("music")}>
+                音源傳輸播放
+              </button>
             </li>
-            <li className="nav-item" onClick={() => setPage("lineNotify")}>
-              <a className="nav-link" href="#">LINE Notify 通知</a>
+            <li className="nav-item">
+              <button className="nav-link btn" onClick={() => setPage("lineNotify")}>
+                LINE Notify 通知
+              </button>
             </li>
           </ul>
         </div>
@@ -48,7 +51,6 @@ function App() {
 
       <div className="container mt-4">
         <div className="content-box p-4">
-          {/* 一對一語音及影音對講 */}
           {page === "audioVideo" && (
             <section>
               <div className="card">
@@ -63,7 +65,6 @@ function App() {
             </section>
           )}
 
-          {/* 一對多語音廣播 */}
           {page === "broadcast" && (
             <section>
               <div className="card">
@@ -80,7 +81,6 @@ function App() {
             </section>
           )}
 
-          {/* IP Camera 影像與截圖 */}
           {page === "camera" && (
             <section>
               <div className="card">
@@ -102,7 +102,6 @@ function App() {
             </section>
           )}
 
-          {/* LCD 顯示控制 */}
           {page === "lcd" && (
             <section>
               <div className="card">
@@ -118,7 +117,6 @@ function App() {
             </section>
           )}
 
-          {/* 數位 I/O 控制 */}
           {page === "ioControl" && (
             <section>
               <div className="card">
@@ -137,7 +135,6 @@ function App() {
             </section>
           )}
 
-          {/* 音源傳輸播放 */}
           {page === "music" && (
             <section>
               <div className="card">
@@ -155,7 +152,6 @@ function App() {
             </section>
           )}
 
-          {/* LINE Notify 通知 */}
           {page === "lineNotify" && (
             <section>
               <div className="card">
@@ -179,3 +175,4 @@ function App() {
 }
 
 export default App;
+
