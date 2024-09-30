@@ -3,14 +3,14 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # 監聽 main 分支上的推送
+      - master  # 監聽 master 分支上的推送
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 檢出 main 分支上的代碼
+      # 檢出 master 分支上的代碼
       - name: Checkout code
         uses: actions/checkout@v2
 
@@ -34,3 +34,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用內置 GITHUB_TOKEN 進行授權
           publish_dir: ./build  # 將 build 文件夾部署到 gh-pages 分支
+
